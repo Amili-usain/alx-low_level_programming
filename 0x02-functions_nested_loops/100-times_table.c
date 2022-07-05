@@ -29,7 +29,7 @@ void print_times_table(int n)
 					_putchar((pdt / 100) + '0');
 					_putchar((pdt / 10) + '0');
 				}
-				else if (pdt <= 99 && prod >= 10)
+				else if (pdt <= 99 && pdt >= 10)
 				{
 					_putchar((pdt / 10) + '0');
 				}
