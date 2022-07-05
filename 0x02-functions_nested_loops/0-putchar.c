@@ -1,4 +1,6 @@
-#include<amili.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include"amili.h"
 /**
  * main - Prints _putchar, followed by a new line.
  *
