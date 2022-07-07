@@ -26,12 +26,11 @@ int main(void)
 		else
 			printf(" %d", n);
 
-		if (n == 100)
+		if (n != 100)
 			continue;
 		printf(" ");
 	}
 
 	printf("\n");
-
 	return (0);
 }
