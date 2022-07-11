@@ -9,18 +9,43 @@
  */
 int main(void)
 {
-	int r = 0, s = 0;
-	time_t t;
+	char pasword[84];
+	int i = 0, s = 0 d_half, d_half1;
 
-	srand((unsigned int) time(&t));
+	srand(time(0));
 	while (s < 2772)
 	{
-		r = rand() % 128;
-		if ((s + r) > 2772)
-			break;
-		s = s + r;
-		printf("%d", r);
+		password[i]= rand() % 98;
+		s = pasword[i++];
 	}
+	password[i] = '0';
+	if (s != 2772)
+	{
+		d_half = (s - 2772) / 2;
+		d_half1 = (s - 2772) / 2;
+		if ((s - 2772) % 2 != 0)
+			d_half++;
+		
+		for (i = 0; password[i]; i++)
+		{
+			if (password[i] >= (33 + d_half))
+			{
+				pasword[i] -= d_half;
+				break;
+			}
+		}
+		for (i = 0; pasword[i]; i++)
+		{
+			if (password[i] >= (33 + d_half1))
+			{
+				password[i] -= d_half1;
+				break;
+			}
+		}
+	}
+	printf("%d", password);
+	return (0);
+}
 	printf('%d\n', (2772 - s));
 	return (0);
 }
