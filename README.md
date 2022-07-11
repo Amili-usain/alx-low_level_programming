@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repository contains  low level programming concepts undertaken at ALX. 
+Learning what pointers and arrays are, how to use pointers and arrays and the differences between the two as well as how to use and manipulate strings in C.
