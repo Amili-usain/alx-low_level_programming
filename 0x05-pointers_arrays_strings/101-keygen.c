@@ -12,8 +12,9 @@ int main(void)
 {
 	int s;
 	char k;
+	time_t t;
 
-	srand(time(NULL));
+	srand((unsigned int) time(&t));
 	while (s <= 2645)
 	{
 		k = rand() % 128;
