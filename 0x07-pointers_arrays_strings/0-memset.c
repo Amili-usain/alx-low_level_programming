@@ -1,4 +1,6 @@
-/*                                                 * File: 0-memset.c                                * auth: Amili H
+/*
+ * File: 0-memset.c
+ * Auth: Amili H
  * Task: writing a function that fills memory with a constant byte.
  */
 
