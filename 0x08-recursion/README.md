@@ -1,1 +1,1 @@
-Learning about recursion and how to implemnt it in C.
+Learning about recursion and how to implement it in C.
