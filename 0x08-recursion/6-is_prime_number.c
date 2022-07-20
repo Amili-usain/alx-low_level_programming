@@ -1,9 +1,10 @@
 /*
  * File: 6-is_prime_number.c
  * Auth: Amili  H
- * Task: Writing a function that returns 1 if the input integer is a prime number, otherwise return 0.
+ * Task: Writing a function that returns 1 if the input
+ 	integer is a prime number, otherwise return 0.
  */
- 
+
 #include "main.h"
 
 int is_divisible(int y, int x);
