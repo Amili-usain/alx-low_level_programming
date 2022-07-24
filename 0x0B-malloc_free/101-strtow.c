@@ -14,7 +14,7 @@ char **strtow(char *str)
 	char **res;
 	int i, word_counter, keeper;
 
-	if (str == NULL || str == "")
+	if (str == NULL || str == " ")
 		return (NULL);
 
 	word_counter = 0;
