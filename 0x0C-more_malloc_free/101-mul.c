@@ -1,3 +1,5 @@
+#include"main.h"
+
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
@@ -119,5 +121,3 @@ int main(int argc, char *argv[])
 	printf("%s\n", nout);
 	return (0);
 }
-Footer
-© 2022 G
