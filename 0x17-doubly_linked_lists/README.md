@@ -14,8 +14,8 @@ In this project, I learned about using doubly-linked lists in C.
 * [lists.h](./lists.h): Header file containing definitions and prototypes for all types
 and functions written for this project.
 
-| Type/File             | Definition/Prototype           |
-| -------------------   | ------------------------------ |
+| Type/File             | Definition/Prototype                          |
+| -------------------   | --------------------------------------------- |
 | `struct dlistint_s`   | <ul><li>`int n`</li><li>`struct dlistint_s *prev`</li><li>`struct dlistint_s *new`</li></ul> |
 | `typedef dlistint_t`  | `struct dlistint_s`                                                                          |
 | `0-print_dlistint.c`  | `size_t print_dlistint(const dlistint_t *h);`                                                |
