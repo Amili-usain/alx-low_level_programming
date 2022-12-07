@@ -29,5 +29,5 @@ This repository contains the following project directories;
 * [0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
 * [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/Amili-usain/monty/tree/master)
 * [0x1A. C - Hash tables](./0x1A-hash_tables)
-* [0x1B. C - Sorting algorithms & Big
-O](https://github.com/Amili-usain/sorting_algorithms/tree/master)
+* [0x1B. C - Sorting algorithms & BigO](https://github.com/Amili-usain/sorting_algorithms/tree/master)
+* [0x1C. C - Makefiles](./0x1C-makefiles)
